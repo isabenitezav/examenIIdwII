@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --f7-theme-color: #d2691e; /* tono marrón claro tipo pan tostado */
+  --f7-navbar-bg-color: #fffaf0; /* fondo navbar: blanco cálido */
+  --f7-navbar-link-color: #8b4513; /* marrón oscuro */
+  --f7-navbar-text-color: #6e4a2e; /* marrón medio */
+  --f7-bars-bg-color: #fffaf0; /* igual que navbar */
+  --f7-tabbar-link-inactive-color: #a1887f; /* marrón claro */
+  --f7-block-margin-vertical: 20px;
+  --f7-card-footer-border-color: transparent;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf6ef; /* fondo general pastel */
+  color: #5a3e36; /* texto general */
+}
+
+/* Panel lateral */
+.panel-left {
+  background-color: #ffe6cc;
+  color: #5a3e36;
+}
+
+.block-title {
+  margin-top: 20px;
+  color: #a0522d;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list a {
+  color: #5a3e36;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.list a:hover {
+  color: #d2691e;
+  font-weight: bold;
+}
+
+/* Navbar personalizado */
+.navbar .title {
+  font-size: 20px;
+  color: var(--f7-navbar-text-color);
+  font-weight: 600;
+}
+
+/* Iconos del menú */
+.material-icons {
+  color: var(--f7-theme-color);
+  font-size: 24px;
+}
+
+.highlight-card {
+  background-color: #fff3e6;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: scale(1.03);
+  background-color: #ffe6cc;
+  cursor: pointer;
+}
+
+/* Carrusel de bienvenida */
+.carousel-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.carousel-text h1 {
+  font-size: 2rem;
+  font-family: 'Poppins', cursive;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-text p {
+  font-size: 1.1rem;
+}
+
+/* Cuadros destacados */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.section-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.section-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.section-card h3 {
+  margin: 10px 0;
+  color: #5a3e2b;
+  font-size: 1.1rem;
+  font-family: 'Forum', cursive;
+}
+
+.section-card:hover {
+  transform: scale(1.03);
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
